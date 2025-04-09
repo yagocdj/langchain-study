@@ -1,0 +1,33 @@
+ 
+# Langchain
+
+## Resumo do primeiro vídeo
+
+Link: https://www.youtube.com/watch?v=aywZrzNaKjs
+
+- O que é o Langchain?
+    - Framework (open-source) que permite desenvolvedores de IA combinarem LLMs com fontes externas de computação e dados
+    - Pode ser utilizado com Python ou TS
+    - Conectar um LLM às minhas próprias fontes de dados
+    - Podemos referenciar um databse inteiro
+    - Podemos definir ações após obtermos as informações que queremos
+    - Divido os documentos a serem processados em chunks e armazeno-os como embeddinfs, ou seja, representações em formato de vetor
+    desses textos
+
+- Arquitetura
+    - Components
+        - LLM wrappers
+        - prompt templates
+        - indexes para obtenção de informações relevantes
+    - Chains -> montar múltiplos components para cumprir uma tarefa específica
+    - Agents -> permitir que os LLMs interajam com APIs externas
+
+- O que são embeddings?
+    - A incorporação é um meio de representar objectos como texto, imagens e áudio como pontos
+    num espaço vetorial contínuo em que as localizações desses pontos no espaço são semanticamente
+    significativas para os algoritmos de aprendizagem automática (ML)
+    - Quanto mais próximo um encaixe estiver de outros encaixes neste espaço n-dimensional,
+    mais semelhantes são
+    - Os Embeddings são utilizados em vários domínios e aplicações devido à sua capacidade de
+    transformar dados categóricos e de elevada dimensão em representações vectoriais contínuas,
+    captando padrões, relações e semântica significativos
